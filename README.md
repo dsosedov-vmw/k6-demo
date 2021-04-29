@@ -46,3 +46,8 @@
     ```bash
     k6 run src/test/resources/k6/demo-9.js
     ```
+- Show JSON output:
+    ```bash
+    k6 run src/test/resources/k6/demo-1.js --out json=output.json
+    ```
+- Show test recording and k6 Cloud
